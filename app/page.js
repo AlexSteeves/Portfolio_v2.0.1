@@ -15,14 +15,12 @@ export default function Home() {
 
   useEffect(() => {
     (async () => {
-      if (window.innerWidth > 768) {
-        const lenis = new Lenis();
-        const raf = (time) => {
-          lenis.raf(time);
-          requestAnimationFrame(raf);
-        };
+      const lenis = new Lenis();
+      const raf = (time) => {
+        lenis.raf(time);
         requestAnimationFrame(raf);
-      }
+      };
+      requestAnimationFrame(raf);
 
       setTimeout(() => {
         setIsLoading(false);
