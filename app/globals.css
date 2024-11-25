@@ -2,19 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
 :root {
-
-  --primary-color:#8de7e8;
+  --primary-color: #8de7e8;
   --secondary-color: #1e4593;
   --accent-color: #4e5ddb;
-  --background-color: #0F413F;
+  --background-color: #0f413f;
   --text-color: #d9f7f5;
-
-
-
 
   --base-font-size: 16px; /* Base font size */
   --golden-ratio: 1.618; /* Golden ratio */
@@ -24,8 +17,6 @@
   --font-size-h3: calc(var(--font-size-h4) * var(--golden-ratio));
   --font-size-h2: calc(var(--font-size-h3) * var(--golden-ratio));
   --font-size-h1: calc(var(--font-size-h2) * var(--golden-ratio));
-
-
 }
 
 /* Medium Devices (Tablets, Small Laptops) */
@@ -33,7 +24,7 @@
   :root {
     --base-font-size: 14px; /* Base font size */
     --golden-ratio: 1.618; /* Golden ratio */
-  
+
     --font-size-h5: calc(var(--base-font-size) * var(--golden-ratio));
     --font-size-h4: calc(var(--font-size-h5) * var(--golden-ratio));
     --font-size-h3: calc(var(--font-size-h4) * var(--golden-ratio));
@@ -47,32 +38,24 @@
   :root {
     --base-font-size: 8px; /* Base font size */
     --golden-ratio: 1.618; /* Golden ratio */
-  
+
     --font-size-h5: calc(var(--base-font-size) * var(--golden-ratio));
     --font-size-h4: calc(var(--font-size-h5) * var(--golden-ratio));
     --font-size-h3: calc(var(--font-size-h4) * var(--golden-ratio));
     --font-size-h2: calc(var(--font-size-h3) * var(--golden-ratio));
     --font-size-h1: calc(var(--font-size-h3) * var(--golden-ratio));
   }
-  
 }
 
-
-
-
-
-body{
+body {
   margin: 0px;
   padding: 0px;
 
-  overflow-x:  hidden;
+  overflow-x: hidden;
   overflow-y: scroll;
 
- 
   background-color: var(--background-color);
-  
 }
-
 
 h1 {
   font-size: var(--font-size-h1);
@@ -114,8 +97,6 @@ h5 {
   padding: 0px;
   font-weight: 300;
 }
-
-
 
 .no-visible-scrollbar {
   scrollbar-width: none;
