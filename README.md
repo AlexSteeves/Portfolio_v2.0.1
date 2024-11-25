@@ -1,5 +1,5 @@
 <h1 style="font-family: 'Garamond', serif; text-transform: uppercase; font-size: 36px; font-weight: 300;">
-  personal portfolio
+  PERSONAL PORFOLIO
 </h1>
 
 <h1 style="font-family: 'Garamond', serif; text-transform: uppercase; font-size: 24px; font-weight: 300; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 8px;">
